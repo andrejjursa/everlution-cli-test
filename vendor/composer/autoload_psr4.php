@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
+    '' => array($baseDir . '/src'),
 );
